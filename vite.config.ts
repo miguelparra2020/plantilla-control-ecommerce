@@ -11,7 +11,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       devOptions: {
-        enabled: true, // Permite que PWA funcione en modo desarrollo
+        enabled: false, // Permite que PWA funcione en modo desarrollo
       },
       manifest: {
         name: "Control Ecommerce",
