@@ -1,14 +1,6 @@
-import { useEffect } from "react";
-
+import LoginModule from "../modules/Login/Index"
 const Login = () => {
-    useEffect(() => {
-        localStorage.setItem("isAuthenticated", "true")
-      }, []);
-    return(
-        <>
-            Hola soy Login         
-        </>
-    )
+    return(<LoginModule/>)
 }
 
 export default Login

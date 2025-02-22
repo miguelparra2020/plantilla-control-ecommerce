@@ -5,3 +5,7 @@ export interface User {
     picture: string;
   }
   
+export interface IPropsUserProfile {
+    user: User
+    onLogout: () => void
+  }
