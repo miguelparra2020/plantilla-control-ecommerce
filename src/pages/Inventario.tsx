@@ -1,4 +1,4 @@
-const Home = () => {
+const Inventario = () => {
     return(
         <>
             Hola soy Inventario            
@@ -6,4 +6,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Inventario
