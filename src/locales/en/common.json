@@ -1,3 +1,9 @@
 {
-    "Validando":"Validating"
+   "ValidateUser":{
+        "Greeting":"Hello",
+        "Validating":"Is validating the user",
+        "UserAuthorizatedTrue":"Welcome, authorized user",
+        "UserAuthorizatedFalse":"The user is not authorized",
+        "ButtonClosed":"Close"
+    }
 }

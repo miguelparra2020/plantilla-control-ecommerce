@@ -1,3 +1,9 @@
 {
-    "Validando":"Validando"
+    "ValidateUser":{
+        "Greeting":"Hola",
+        "Validating":"Validando",
+        "UserAuthorizatedTrue":"Bienvenido!, usuario autorizado",
+        "UserAuthorizatedFalse":"El usuario no está autorizado",
+        "ButtonClosed":"Cerrar"
+    }
 }
