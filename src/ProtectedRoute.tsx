@@ -1,12 +1,9 @@
-import { Navigate, Outlet } from "react-router-dom";
-import { useState } from "react";
+import { Navigate, Outlet } from "react-router-dom"
+import { useGoogleAuth } from "./modules/Login/hooks/useGoogleAuth"
 
 const ProtectedRoute = () => {
-  const [isAuth] = useState<boolean>(() => {
-    return localStorage.getItem("isAuthenticated") === "true"; // Recuperamos el estado
-  })
+  const { user } = useGoogleAuth()
+  return user ? <Outlet /> : <Navigate to="/" replace />
+}
 
-  return isAuth ? <Outlet /> : <Navigate to="/" replace />;
-};
-
-export default ProtectedRoute;
+export default ProtectedRoute
