@@ -7,7 +7,7 @@ const GoogleAuth = () => {
   const { user, login, logout } = useGoogleAuth()
 
   return (
-    <GoogleOAuthProvider clientId={"generalConfig.GoogleAuth.clientId"}>
+    <GoogleOAuthProvider clientId={"389059903936-crh2qopn8c163qlk9ucfspglb6uep88o.apps.googleusercontent.com"}>
       {!user ? (
         <section className="bg-gray-50">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
